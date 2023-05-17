@@ -1,0 +1,106 @@
+<%- include('html_header_tag') %>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Selada</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3ad4d80aee.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/update_styles.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&family=Noto+Sans&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    .bg-light,
+    .bg-dark {
+        margin-left: 90px;
+        margin-right: 90px;
+        margin-top: 60px;
+    }
+
+    a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+</style>
+
+
+<body class="homebody">
+        <!--Start introduction of thesis Section-->
+        <section class="bg-light text-dark p-5 text-center text-sm-start" id="home">
+            <div class="container py-5">
+                <div class="d-sm-flex align-items-center justify-content-between py-5">
+                    <div>
+                      <br>
+                        <h1>Implementation of Optical Fiber Cables for UV Lights Filtration in Indoor Automated Hydroponic System</h1>
+                        <h3 class="my-4">Thesis Project</h3>
+                        <p class="lead my-4">
+                          Aim is to determine the effectiveness of optical fiber cable light when it comes to growing light. This system consist of two set ups in where Optical fiber Cables and Led Grow lights are the lights source of a two dozen Lalique variety of lettuce.
+                        </p>
+                        <p class="lead my-4">
+                          *The system is automated in which you can control the overall environmental conditions and provide the nutrient solution needed by the plant to grow.
+                        </p>
+                        <p class="lead my-4">
+                          *The system was also capable of cooling a surrounding area to control temperature rise in protecting and maintaining the optimal temperature.
+                        </p>
+                    </div>
+                    <a href="#">
+                        <img src="/img/bg.jpg" src="img-fluid" width="500">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--End of introduction of thesis section-->
+    
+        <!--Start Tutorial Link section-->
+        <section class="bg-dark text-light p-5">
+          <div class="container py-5">
+            <div class="d-md-flex justify-content-between align-items-center">
+              <div>
+                <h1>GUIDE TO NAVIGATION TABS</h1>
+                <h3 class="my-4">Dasboard</h3>
+                <p class="lead my-4">- On this particular webpage, which is dedicated to Environmental and Water Quality, you will be able to view and access the real-time measurements and data pertaining to several important factors, namely, the PH (Potential Hydrogen) levels, EC (Electrical Conductivity), Water Temperature, Room Temperature, and Humidity, that are recorded and monitored in the automated hydroponic system.</p>
+    
+                <h3 class="my-4">Control and Analytics</h3>
+                <p class="lead my-4">-  This particular page serves as a centralized hub wherein you can exert control over the various actuators that govern the system's functions. Additionally, the sensor readings for both environmental and water quality are automatically imported and displayed on this page. Moreover, this page also provides you with the capability to download the data obtained from the system.</p>
+                <p class="lead my-4">- The function of the reset button is solely to remove any previously recorded set times, whereas the default button serves as the means by which one can establish a specific time at which the system will activate.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--end of tutorial link-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+<%- include('html_footer_tag') %>
+
